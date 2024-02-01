@@ -20,7 +20,7 @@ $time = 0
 foreach($dc in $dcs)
 {
 
-    <#
+<#
     iterate through the list of domain controllers, looking for the
     specified username. One we have the data, it is compared to the
     previous value for $time, and only the newer value is kept.
